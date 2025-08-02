@@ -1,6 +1,6 @@
 # LIONSMAPPER AI
 
-![Lions Mapper Logo](./assets/lionsmapper_lg.gif)
+![Lions Mapper Logo](../assets/lionsmapper_lg.gif)
 
 **LIONSMAPPER AI** is a Python package for detecting Cartesian coordinates (X, Y) from RGB color filters in images, videos, or real-time webcam streams.  
 This project is an early evolution of the former **PYAISPINLINE** and focuses on image mapping, movement detection, and axis tracking for RGB-based research workflows.
@@ -154,3 +154,4 @@ Below is the typical LIONSMAPPER AI workflow from real-time video/image input to
 ## 📄 License
 
 This project is licensed under the Creative Commons Zero V1 – see the [LICENSE](LICENSE) file for details.
+
