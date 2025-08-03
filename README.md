@@ -24,14 +24,14 @@ This project is part of investigation into new Artificial Intelligence technolog
 ## Manual
 A complete usage manual is available at:
 
-![LIONS MAPPER AI COMPLETE_MANUAL](./manual/README.MD)
+[LIONS MAPPER AI COMPLETE_MANUAL](./manual/README.MD)
 
 
 ## Installation
 Install via pip:
 
 ```bash
-pip install lionsmapperai_v1
+pip install lionsmapper
 ````
 
 ## Quick Usage Examples
@@ -39,7 +39,7 @@ pip install lionsmapperai_v1
 ### Example 1: Detect Cartesian Coordinates from RGB Filter
 
 ```python
-from lionsmapperai_v1 import *
+from lionsmapper import *
 
 # Detect coordinates in a map image based on an RGB color filter
 _get_spin_route("map.png", (255, 255, 255))  # image_source: map.png, RGB: 255,255,255
@@ -53,10 +53,10 @@ print(str(_axis))
 ## Available Modules
 
 ```python
-from lionsmapperai_v1 import lionmapper_webcam_capture
-from lionsmapperai_v1 import lions_map_axis
-from lionsmapperai_v1 import lions_map_mv_detect
-from lionsmapperai_v1 import mapper_webcam_capture
+from lionsmapper import lionmapper_webcam_capture
+from lionsmapper import lions_map_axis
+from lionsmapper import lions_map_mv_detect
+from lionsmapper import mapper_webcam_capture
 ```
 
 ## Project Goals
