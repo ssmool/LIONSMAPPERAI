@@ -71,7 +71,7 @@ Axis detection and movement tracking for image/video sources.
 ## 🚀 Installation
 
 ```bash
-pip install lionsmapperai_v1
+pip install lionsmapper
 ````
 
 ---
@@ -79,8 +79,8 @@ pip install lionsmapperai_v1
 ## 🔧 Example Usage
 
 ```python
-from lionsmapperai import lionmapper_webcam_capture as lwc
-from lionsmapperai import lions_map_mv_detect as lmd
+from lionsmapper import lionmapper_webcam_capture as lwc
+from lionsmapper import lions_map_mv_detect as lmd
 
 # Start webcam
 lwc.start_webcam(video_source=0, max_frame_rate=12)
@@ -103,8 +103,8 @@ print("Detected Axis:", coords)
 🔧 Example Usage
 
 ```python
-from lionsmapperai import lionmapper_webcam_capture as lwc
-from lionsmapperai import lions_map_mv_detect as lmd
+from lionsmapper import lionmapper_webcam_capture as lwc
+from lionsmapper import lions_map_mv_detect as lmd
 
 # Start webcam
 lwc.start_webcam(video_source=0, max_frame_rate=12)
@@ -154,4 +154,5 @@ Below is the typical LIONSMAPPER AI workflow from real-time video/image input to
 ## 📄 License
 
 This project is licensed under the Creative Commons Zero V1 – see the [LICENSE](LICENSE) file for details.
+
 
