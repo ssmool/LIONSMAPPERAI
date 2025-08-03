@@ -153,7 +153,8 @@ Below is the typical LIONSMAPPER AI workflow from real-time video/image input to
 
 ## 📄 License
 
-This project is licensed under the CC0-1.0 license – see the [CC0 1.0 Universal](LICENSE) file for details.
+This project is licensed under the CC0-1.0 license – see the [CC0 1.0 Universal](../LICENSE) file for details.
+
 
 
 
